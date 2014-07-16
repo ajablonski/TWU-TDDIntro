@@ -5,7 +5,7 @@ public class Factorial {
         if (i == 0) {
             return 1;
         } else {
-            return i;
+            return i * compute(i - 1);
         }
     }
 }
